@@ -1,0 +1,14 @@
+pub const BAG_OK: u8 = 1;
+pub const SUSPICIOUS_BAG: u8 = 0;
+pub const INITIALISE_BELT_RUN: &str = "\nEnter Belt Number to resume the belt after checking the Suspicious Bag\n\n|  Belt 1  |               |  Belt 2  |               |  Belt 3  |\n ‾‾‾‾‾‾‾‾‾‾                 ‾‾‾‾‾‾‾‾‾‾                 ‾‾‾‾‾‾‾‾‾‾";
+pub const CHECK_BAG_ON_BELT1_MSG: &str = " __________\n|  !Check! |\n|__________|";
+pub const CHECK_BAG_ON_BELT2_MSG: &str = "                            __________\n                           |  !Check! |\n                           |__________|";
+pub const CHECK_BAG_ON_BELT3_MSG: &str = "                                                       __________\n                                                      |  !Check! |\n                                                      |__________|";
+pub const BAG_OK_ON_BELT1_MSG: &str = " __________\n|  Bag Ok  |\n|__________|";
+pub const BAG_OK_ON_BELT2_MSG: &str = "                            __________\n                           |  Bag Ok  |\n                           |__________|";
+pub const BAG_OK_ON_BELT3_MSG: &str = "                                                       __________\n                                                      |  Bag Ok  |\n                                                      |__________|";
+pub const LOCK: u8 = 1;
+pub const UNLOCK: u8 = 0;
+pub const BELT_1: u8 = 1;
+pub const BELT_2: u8 = 2;
+pub const BELT_3: u8 = 3;
